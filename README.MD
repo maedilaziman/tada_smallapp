@@ -52,7 +52,7 @@ iPad
 <img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_05.png" width="600" />
 <img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_06.png" width="300" />
 <img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_07.png" width="600" />
-<img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_08.png" width="600" />
+<img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_08.png" width="300" />
 <h3>iPad</h3>
 <br/>
 <img src="https://raw.githubusercontent.com/maedilaziman/tada_smallapp/master/Screenshots/IMG_IPAD_01.png" width="500" />
