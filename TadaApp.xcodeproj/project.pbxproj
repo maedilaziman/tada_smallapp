@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13E015A6D7F3C8110CFE0F7 /* Pods_TadaApp_TadaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC7226AA89C39DBFD3AE034 /* Pods_TadaApp_TadaAppUITests.framework */; };
+		A1CC37E8039B8B28BA34C3CC /* Pods_TadaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324D7184914C4BE7780A980D /* Pods_TadaAppTests.framework */; };
+		BE70F54BD93EBCFF46CCEDF3 /* Pods_TadaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF188E9A8F4305C9F4B04E /* Pods_TadaApp.framework */; };
+		CC881DD627A45625000E0043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD527A45625000E0043 /* AppDelegate.swift */; };
+		CC881DD827A45625000E0043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD727A45625000E0043 /* SceneDelegate.swift */; };
+		CC881DDA27A45625000E0043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD927A45625000E0043 /* ViewController.swift */; };
+		CC881DDD27A45625000E0043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC881DDB27A45625000E0043 /* Main.storyboard */; };
+		CC881DE027A45625000E0043 /* TadaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC881DDE27A45625000E0043 /* TadaApp.xcdatamodeld */; };
+		CC881DE227A45628000E0043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC881DE127A45628000E0043 /* Assets.xcassets */; };
+		CC881DE527A45628000E0043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC881DE327A45628000E0043 /* LaunchScreen.storyboard */; };
+		CC881DF027A45628000E0043 /* TadaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DEF27A45628000E0043 /* TadaAppTests.swift */; };
+		CC881DFB27A45628000E0043 /* TadaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DFA27A45628000E0043 /* TadaAppUITests.swift */; };
+		CC881E1227A458AF000E0043 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E1127A458AF000E0043 /* Coordinator.swift */; };
+		CC881E1427A45907000E0043 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E1327A45907000E0043 /* AppCoordinator.swift */; };
+		CC881E1627A4592D000E0043 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E1527A4592D000E0043 /* RootCoordinator.swift */; };
+		CC881E1827A45AF7000E0043 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E1727A45AF7000E0043 /* RootViewController.xib */; };
+		CC881E1A27A45B35000E0043 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E1927A45B35000E0043 /* RootViewController.swift */; };
+		CC881E1C27A46435000E0043 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E1B27A46435000E0043 /* LoginViewController.xib */; };
+		CC881E1F27A46485000E0043 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E1E27A46485000E0043 /* RegisterViewController.xib */; };
+		CC881E2127A46497000E0043 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E2027A46497000E0043 /* HomeViewController.xib */; };
+		CC881E2327A464A8000E0043 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E2227A464A8000E0043 /* DetailViewController.xib */; };
+		CC881E2527A464BA000E0043 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E2427A464BA000E0043 /* ProfileViewController.xib */; };
+		CC881E2727A464D9000E0043 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2627A464D9000E0043 /* LoginViewController.swift */; };
+		CC881E2927A464EA000E0043 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2827A464EA000E0043 /* RegisterViewController.swift */; };
+		CC881E2B27A464F9000E0043 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2A27A464F9000E0043 /* HomeViewController.swift */; };
+		CC881E2D27A46508000E0043 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2C27A46508000E0043 /* DetailViewController.swift */; };
+		CC881E2F27A46519000E0043 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2E27A46519000E0043 /* ProfileViewController.swift */; };
+		CC881E3127A465CE000E0043 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3027A465CE000E0043 /* LoginCoordinator.swift */; };
+		CC881E3327A47415000E0043 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3227A47415000E0043 /* LoginModel.swift */; };
+		CC881E3527A4746A000E0043 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3427A4746A000E0043 /* Constants.swift */; };
+		CC881E3727A4761D000E0043 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3627A4761D000E0043 /* RegisterModel.swift */; };
+		CC881E3927A47765000E0043 /* SetUpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3827A47765000E0043 /* SetUpExtension.swift */; };
+		CC881E3B27A47839000E0043 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3A27A47839000E0043 /* Helper.swift */; };
+		CC881E3D27A47C91000E0043 /* ScrollViewAutolayoutCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3C27A47C91000E0043 /* ScrollViewAutolayoutCreator.swift */; };
+		CC881E3F27A48953000E0043 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3E27A48953000E0043 /* RegisterCoordinator.swift */; };
+		CC881E4127A494B1000E0043 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4027A494B1000E0043 /* CheckBox.swift */; };
+		CC881E4327A4C318000E0043 /* Test_LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4227A4C318000E0043 /* Test_LoginModel.swift */; };
+		CC881E4527A4C7D7000E0043 /* Test_RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4427A4C7D7000E0043 /* Test_RegisterModel.swift */; };
+		CC881E4727A4CDB3000E0043 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4627A4CDB3000E0043 /* HomeCoordinator.swift */; };
+		CC881E4927A4D212000E0043 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4827A4D212000E0043 /* MovieModel.swift */; };
+		CC881E4B27A4D277000E0043 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4A27A4D277000E0043 /* APIService.swift */; };
+		CC881E4D27A4D308000E0043 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4C27A4D308000E0043 /* ViewModel.swift */; };
+		CC881E5127A4DBF3000E0043 /* HomeCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E4F27A4DBF3000E0043 /* HomeCollViewCell.swift */; };
+		CC881E5227A4DBF3000E0043 /* HomeCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E5027A4DBF3000E0043 /* HomeCollViewCell.xib */; };
+		CC881E5427A4F14C000E0043 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E5327A4F14C000E0043 /* DetailCoordinator.swift */; };
+		CC881E5627A50249000E0043 /* ListMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E5527A50249000E0043 /* ListMovieViewController.xib */; };
+		CC881E5827A50274000E0043 /* ListMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E5727A50274000E0043 /* ListMovieViewController.swift */; };
+		CC881E5A27A51900000E0043 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E5927A51900000E0043 /* SideMenuViewController.swift */; };
+		CC881E5C27A51A72000E0043 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC881E5B27A51A72000E0043 /* SideMenuViewController.xib */; };
+		CC881E5F27A5C228000E0043 /* ValidationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E5E27A5C228000E0043 /* ValidationField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC881DEC27A45628000E0043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC881DCA27A45625000E0043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC881DD127A45625000E0043;
+			remoteInfo = TadaApp;
+		};
+		CC881DF727A45628000E0043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC881DCA27A45625000E0043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC881DD127A45625000E0043;
+			remoteInfo = TadaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A94E30E125499B62E5E842D /* Pods-TadaApp-TadaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaApp-TadaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		324D7184914C4BE7780A980D /* Pods_TadaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454C93AAEFBEAB11BF9430EE /* Pods-TadaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaApp.release.xcconfig"; path = "Target Support Files/Pods-TadaApp/Pods-TadaApp.release.xcconfig"; sourceTree = "<group>"; };
+		4C6E251FE66C57AC0F61ED33 /* Pods-TadaApp-TadaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaApp-TadaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85BBB49A05B77F03F854A7BE /* Pods-TadaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TadaAppTests/Pods-TadaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C84680915BAE8C3C79E64699 /* Pods-TadaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaAppTests.release.xcconfig"; path = "Target Support Files/Pods-TadaAppTests/Pods-TadaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC881DD227A45625000E0043 /* TadaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TadaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC881DD527A45625000E0043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC881DD727A45625000E0043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC881DD927A45625000E0043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC881DDC27A45625000E0043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC881DDF27A45625000E0043 /* TadaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TadaApp.xcdatamodel; sourceTree = "<group>"; };
+		CC881DE127A45628000E0043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC881DE427A45628000E0043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC881DE627A45628000E0043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC881DEB27A45628000E0043 /* TadaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC881DEF27A45628000E0043 /* TadaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TadaAppTests.swift; sourceTree = "<group>"; };
+		CC881DF127A45628000E0043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC881DF627A45628000E0043 /* TadaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC881DFA27A45628000E0043 /* TadaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TadaAppUITests.swift; sourceTree = "<group>"; };
+		CC881DFC27A45628000E0043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC881E1127A458AF000E0043 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CC881E1327A45907000E0043 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CC881E1527A4592D000E0043 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		CC881E1727A45AF7000E0043 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		CC881E1927A45B35000E0043 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CC881E1B27A46435000E0043 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CC881E1E27A46485000E0043 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		CC881E2027A46497000E0043 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CC881E2227A464A8000E0043 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CC881E2427A464BA000E0043 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		CC881E2627A464D9000E0043 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC881E2827A464EA000E0043 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CC881E2A27A464F9000E0043 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC881E2C27A46508000E0043 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CC881E2E27A46519000E0043 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC881E3027A465CE000E0043 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		CC881E3227A47415000E0043 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		CC881E3427A4746A000E0043 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC881E3627A4761D000E0043 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		CC881E3827A47765000E0043 /* SetUpExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpExtension.swift; sourceTree = "<group>"; };
+		CC881E3A27A47839000E0043 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CC881E3C27A47C91000E0043 /* ScrollViewAutolayoutCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAutolayoutCreator.swift; sourceTree = "<group>"; };
+		CC881E3E27A48953000E0043 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
+		CC881E4027A494B1000E0043 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CC881E4227A4C318000E0043 /* Test_LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_LoginModel.swift; sourceTree = "<group>"; };
+		CC881E4427A4C7D7000E0043 /* Test_RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_RegisterModel.swift; sourceTree = "<group>"; };
+		CC881E4627A4CDB3000E0043 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		CC881E4827A4D212000E0043 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		CC881E4A27A4D277000E0043 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CC881E4C27A4D308000E0043 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CC881E4F27A4DBF3000E0043 /* HomeCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollViewCell.swift; sourceTree = "<group>"; };
+		CC881E5027A4DBF3000E0043 /* HomeCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollViewCell.xib; sourceTree = "<group>"; };
+		CC881E5327A4F14C000E0043 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		CC881E5527A50249000E0043 /* ListMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListMovieViewController.xib; sourceTree = "<group>"; };
+		CC881E5727A50274000E0043 /* ListMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieViewController.swift; sourceTree = "<group>"; };
+		CC881E5927A51900000E0043 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		CC881E5B27A51A72000E0043 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		CC881E5E27A5C228000E0043 /* ValidationField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationField.swift; sourceTree = "<group>"; };
+		CFEF188E9A8F4305C9F4B04E /* Pods_TadaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D109041DAE72940FD93EBB15 /* Pods-TadaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaApp.debug.xcconfig"; path = "Target Support Files/Pods-TadaApp/Pods-TadaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC7226AA89C39DBFD3AE034 /* Pods_TadaApp_TadaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaApp_TadaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC881DCF27A45625000E0043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE70F54BD93EBCFF46CCEDF3 /* Pods_TadaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DE827A45628000E0043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CC37E8039B8B28BA34C3CC /* Pods_TadaAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DF327A45628000E0043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13E015A6D7F3C8110CFE0F7 /* Pods_TadaApp_TadaAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9858520E7532D5F857634E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF188E9A8F4305C9F4B04E /* Pods_TadaApp.framework */,
+				DAC7226AA89C39DBFD3AE034 /* Pods_TadaApp_TadaAppUITests.framework */,
+				324D7184914C4BE7780A980D /* Pods_TadaAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC881DC927A45625000E0043 = {
+			isa = PBXGroup;
+			children = (
+				CC881DD427A45625000E0043 /* TadaApp */,
+				CC881DEE27A45628000E0043 /* TadaAppTests */,
+				CC881DF927A45628000E0043 /* TadaAppUITests */,
+				CC881DD327A45625000E0043 /* Products */,
+				F0475070B348B943BADDCE3E /* Pods */,
+				A9858520E7532D5F857634E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC881DD327A45625000E0043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC881DD227A45625000E0043 /* TadaApp.app */,
+				CC881DEB27A45628000E0043 /* TadaAppTests.xctest */,
+				CC881DF627A45628000E0043 /* TadaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC881DD427A45625000E0043 /* TadaApp */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E1027A45849000E0043 /* coordinators */,
+				CC881E0F27A45840000E0043 /* routers */,
+				CC881E0E27A45839000E0043 /* model */,
+				CC881E0D27A4582A000E0043 /* view_model */,
+				CC881E0C27A45820000E0043 /* api_service */,
+				CC881E0B27A45772000E0043 /* ui */,
+				CC881E0A27A45764000E0043 /* controller */,
+				CC881E0927A4575B000E0043 /* extension */,
+				CC881E0827A45755000E0043 /* utils */,
+				CC881DD527A45625000E0043 /* AppDelegate.swift */,
+				CC881DD727A45625000E0043 /* SceneDelegate.swift */,
+				CC881DD927A45625000E0043 /* ViewController.swift */,
+				CC881DDB27A45625000E0043 /* Main.storyboard */,
+				CC881DE127A45628000E0043 /* Assets.xcassets */,
+				CC881DE327A45628000E0043 /* LaunchScreen.storyboard */,
+				CC881DE627A45628000E0043 /* Info.plist */,
+				CC881DDE27A45625000E0043 /* TadaApp.xcdatamodeld */,
+			);
+			path = TadaApp;
+			sourceTree = "<group>";
+		};
+		CC881DEE27A45628000E0043 /* TadaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC881DEF27A45628000E0043 /* TadaAppTests.swift */,
+				CC881DF127A45628000E0043 /* Info.plist */,
+				CC881E4227A4C318000E0043 /* Test_LoginModel.swift */,
+				CC881E4427A4C7D7000E0043 /* Test_RegisterModel.swift */,
+			);
+			path = TadaAppTests;
+			sourceTree = "<group>";
+		};
+		CC881DF927A45628000E0043 /* TadaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC881DFA27A45628000E0043 /* TadaAppUITests.swift */,
+				CC881DFC27A45628000E0043 /* Info.plist */,
+			);
+			path = TadaAppUITests;
+			sourceTree = "<group>";
+		};
+		CC881E0827A45755000E0043 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E3427A4746A000E0043 /* Constants.swift */,
+				CC881E3A27A47839000E0043 /* Helper.swift */,
+				CC881E3C27A47C91000E0043 /* ScrollViewAutolayoutCreator.swift */,
+				CC881E4027A494B1000E0043 /* CheckBox.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CC881E0927A4575B000E0043 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E3827A47765000E0043 /* SetUpExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		CC881E0A27A45764000E0043 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E5D27A5C214000E0043 /* validation */,
+				CC881E4E27A4DB78000E0043 /* list_movie */,
+				CC881E1927A45B35000E0043 /* RootViewController.swift */,
+				CC881E2627A464D9000E0043 /* LoginViewController.swift */,
+				CC881E2827A464EA000E0043 /* RegisterViewController.swift */,
+				CC881E2A27A464F9000E0043 /* HomeViewController.swift */,
+				CC881E2C27A46508000E0043 /* DetailViewController.swift */,
+				CC881E2E27A46519000E0043 /* ProfileViewController.swift */,
+				CC881E5727A50274000E0043 /* ListMovieViewController.swift */,
+				CC881E5927A51900000E0043 /* SideMenuViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CC881E0B27A45772000E0043 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E1727A45AF7000E0043 /* RootViewController.xib */,
+				CC881E1B27A46435000E0043 /* LoginViewController.xib */,
+				CC881E1E27A46485000E0043 /* RegisterViewController.xib */,
+				CC881E2027A46497000E0043 /* HomeViewController.xib */,
+				CC881E2227A464A8000E0043 /* DetailViewController.xib */,
+				CC881E2427A464BA000E0043 /* ProfileViewController.xib */,
+				CC881E5527A50249000E0043 /* ListMovieViewController.xib */,
+				CC881E5B27A51A72000E0043 /* SideMenuViewController.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		CC881E0C27A45820000E0043 /* api_service */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E4A27A4D277000E0043 /* APIService.swift */,
+			);
+			path = api_service;
+			sourceTree = "<group>";
+		};
+		CC881E0D27A4582A000E0043 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E4C27A4D308000E0043 /* ViewModel.swift */,
+			);
+			path = view_model;
+			sourceTree = "<group>";
+		};
+		CC881E0E27A45839000E0043 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E3227A47415000E0043 /* LoginModel.swift */,
+				CC881E3627A4761D000E0043 /* RegisterModel.swift */,
+				CC881E4827A4D212000E0043 /* MovieModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CC881E0F27A45840000E0043 /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E1127A458AF000E0043 /* Coordinator.swift */,
+				CC881E1327A45907000E0043 /* AppCoordinator.swift */,
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		CC881E1027A45849000E0043 /* coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E1527A4592D000E0043 /* RootCoordinator.swift */,
+				CC881E3027A465CE000E0043 /* LoginCoordinator.swift */,
+				CC881E3E27A48953000E0043 /* RegisterCoordinator.swift */,
+				CC881E4627A4CDB3000E0043 /* HomeCoordinator.swift */,
+				CC881E5327A4F14C000E0043 /* DetailCoordinator.swift */,
+			);
+			path = coordinators;
+			sourceTree = "<group>";
+		};
+		CC881E4E27A4DB78000E0043 /* list_movie */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E4F27A4DBF3000E0043 /* HomeCollViewCell.swift */,
+				CC881E5027A4DBF3000E0043 /* HomeCollViewCell.xib */,
+			);
+			path = list_movie;
+			sourceTree = "<group>";
+		};
+		CC881E5D27A5C214000E0043 /* validation */ = {
+			isa = PBXGroup;
+			children = (
+				CC881E5E27A5C228000E0043 /* ValidationField.swift */,
+			);
+			path = validation;
+			sourceTree = "<group>";
+		};
+		F0475070B348B943BADDCE3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D109041DAE72940FD93EBB15 /* Pods-TadaApp.debug.xcconfig */,
+				454C93AAEFBEAB11BF9430EE /* Pods-TadaApp.release.xcconfig */,
+				0A94E30E125499B62E5E842D /* Pods-TadaApp-TadaAppUITests.debug.xcconfig */,
+				4C6E251FE66C57AC0F61ED33 /* Pods-TadaApp-TadaAppUITests.release.xcconfig */,
+				85BBB49A05B77F03F854A7BE /* Pods-TadaAppTests.debug.xcconfig */,
+				C84680915BAE8C3C79E64699 /* Pods-TadaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC881DD127A45625000E0043 /* TadaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC881DFF27A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaApp" */;
+			buildPhases = (
+				65E333A3A940499A189FBFA6 /* [CP] Check Pods Manifest.lock */,
+				CC881DCE27A45625000E0043 /* Sources */,
+				CC881DCF27A45625000E0043 /* Frameworks */,
+				CC881DD027A45625000E0043 /* Resources */,
+				14B874BB32C6AE4BC152B521 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TadaApp;
+			productName = TadaApp;
+			productReference = CC881DD227A45625000E0043 /* TadaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC881DEA27A45628000E0043 /* TadaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC881E0227A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaAppTests" */;
+			buildPhases = (
+				B8F852556522C97F5C95A94B /* [CP] Check Pods Manifest.lock */,
+				CC881DE727A45628000E0043 /* Sources */,
+				CC881DE827A45628000E0043 /* Frameworks */,
+				CC881DE927A45628000E0043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC881DED27A45628000E0043 /* PBXTargetDependency */,
+			);
+			name = TadaAppTests;
+			productName = TadaAppTests;
+			productReference = CC881DEB27A45628000E0043 /* TadaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC881DF527A45628000E0043 /* TadaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC881E0527A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaAppUITests" */;
+			buildPhases = (
+				6A0D5AEB2CA2382497F061CF /* [CP] Check Pods Manifest.lock */,
+				CC881DF227A45628000E0043 /* Sources */,
+				CC881DF327A45628000E0043 /* Frameworks */,
+				CC881DF427A45628000E0043 /* Resources */,
+				82AF759C330D88E231F1C241 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC881DF827A45628000E0043 /* PBXTargetDependency */,
+			);
+			name = TadaAppUITests;
+			productName = TadaAppUITests;
+			productReference = CC881DF627A45628000E0043 /* TadaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC881DCA27A45625000E0043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "maedi laziman";
+				TargetAttributes = {
+					CC881DD127A45625000E0043 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CC881DEA27A45628000E0043 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CC881DD127A45625000E0043;
+					};
+					CC881DF527A45628000E0043 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CC881DD127A45625000E0043;
+					};
+				};
+			};
+			buildConfigurationList = CC881DCD27A45625000E0043 /* Build configuration list for PBXProject "TadaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC881DC927A45625000E0043;
+			productRefGroup = CC881DD327A45625000E0043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC881DD127A45625000E0043 /* TadaApp */,
+				CC881DEA27A45628000E0043 /* TadaAppTests */,
+				CC881DF527A45628000E0043 /* TadaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC881DD027A45625000E0043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC881E2527A464BA000E0043 /* ProfileViewController.xib in Resources */,
+				CC881E1C27A46435000E0043 /* LoginViewController.xib in Resources */,
+				CC881DE527A45628000E0043 /* LaunchScreen.storyboard in Resources */,
+				CC881DE227A45628000E0043 /* Assets.xcassets in Resources */,
+				CC881E2327A464A8000E0043 /* DetailViewController.xib in Resources */,
+				CC881E1827A45AF7000E0043 /* RootViewController.xib in Resources */,
+				CC881E5627A50249000E0043 /* ListMovieViewController.xib in Resources */,
+				CC881DDD27A45625000E0043 /* Main.storyboard in Resources */,
+				CC881E5C27A51A72000E0043 /* SideMenuViewController.xib in Resources */,
+				CC881E5227A4DBF3000E0043 /* HomeCollViewCell.xib in Resources */,
+				CC881E2127A46497000E0043 /* HomeViewController.xib in Resources */,
+				CC881E1F27A46485000E0043 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DE927A45628000E0043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DF427A45628000E0043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B874BB32C6AE4BC152B521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaApp/Pods-TadaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaApp/Pods-TadaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TadaApp/Pods-TadaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E333A3A940499A189FBFA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0D5AEB2CA2382497F061CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaApp-TadaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AF759C330D88E231F1C241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F852556522C97F5C95A94B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TadaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC881DCE27A45625000E0043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC881E5F27A5C228000E0043 /* ValidationField.swift in Sources */,
+				CC881E2727A464D9000E0043 /* LoginViewController.swift in Sources */,
+				CC881E4B27A4D277000E0043 /* APIService.swift in Sources */,
+				CC881E5127A4DBF3000E0043 /* HomeCollViewCell.swift in Sources */,
+				CC881E3927A47765000E0043 /* SetUpExtension.swift in Sources */,
+				CC881E2927A464EA000E0043 /* RegisterViewController.swift in Sources */,
+				CC881E3127A465CE000E0043 /* LoginCoordinator.swift in Sources */,
+				CC881E5827A50274000E0043 /* ListMovieViewController.swift in Sources */,
+				CC881E1427A45907000E0043 /* AppCoordinator.swift in Sources */,
+				CC881E4D27A4D308000E0043 /* ViewModel.swift in Sources */,
+				CC881E2D27A46508000E0043 /* DetailViewController.swift in Sources */,
+				CC881DDA27A45625000E0043 /* ViewController.swift in Sources */,
+				CC881DD627A45625000E0043 /* AppDelegate.swift in Sources */,
+				CC881E3B27A47839000E0043 /* Helper.swift in Sources */,
+				CC881E3527A4746A000E0043 /* Constants.swift in Sources */,
+				CC881E1227A458AF000E0043 /* Coordinator.swift in Sources */,
+				CC881E3D27A47C91000E0043 /* ScrollViewAutolayoutCreator.swift in Sources */,
+				CC881E4927A4D212000E0043 /* MovieModel.swift in Sources */,
+				CC881DD827A45625000E0043 /* SceneDelegate.swift in Sources */,
+				CC881E2B27A464F9000E0043 /* HomeViewController.swift in Sources */,
+				CC881E4127A494B1000E0043 /* CheckBox.swift in Sources */,
+				CC881E3327A47415000E0043 /* LoginModel.swift in Sources */,
+				CC881E4727A4CDB3000E0043 /* HomeCoordinator.swift in Sources */,
+				CC881E5427A4F14C000E0043 /* DetailCoordinator.swift in Sources */,
+				CC881DE027A45625000E0043 /* TadaApp.xcdatamodeld in Sources */,
+				CC881E3727A4761D000E0043 /* RegisterModel.swift in Sources */,
+				CC881E3F27A48953000E0043 /* RegisterCoordinator.swift in Sources */,
+				CC881E2F27A46519000E0043 /* ProfileViewController.swift in Sources */,
+				CC881E1A27A45B35000E0043 /* RootViewController.swift in Sources */,
+				CC881E5A27A51900000E0043 /* SideMenuViewController.swift in Sources */,
+				CC881E1627A4592D000E0043 /* RootCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DE727A45628000E0043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC881DF027A45628000E0043 /* TadaAppTests.swift in Sources */,
+				CC881E4527A4C7D7000E0043 /* Test_RegisterModel.swift in Sources */,
+				CC881E4327A4C318000E0043 /* Test_LoginModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC881DF227A45628000E0043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC881DFB27A45628000E0043 /* TadaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC881DED27A45628000E0043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC881DD127A45625000E0043 /* TadaApp */;
+			targetProxy = CC881DEC27A45628000E0043 /* PBXContainerItemProxy */;
+		};
+		CC881DF827A45628000E0043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC881DD127A45625000E0043 /* TadaApp */;
+			targetProxy = CC881DF727A45628000E0043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC881DDB27A45625000E0043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC881DDC27A45625000E0043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC881DE327A45628000E0043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC881DE427A45628000E0043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC881DFD27A45628000E0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC881DFE27A45628000E0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC881E0027A45628000E0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D109041DAE72940FD93EBB15 /* Pods-TadaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC881E0127A45628000E0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454C93AAEFBEAB11BF9430EE /* Pods-TadaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC881E0327A45628000E0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BBB49A05B77F03F854A7BE /* Pods-TadaAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TadaApp.app/TadaApp";
+			};
+			name = Debug;
+		};
+		CC881E0427A45628000E0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84680915BAE8C3C79E64699 /* Pods-TadaAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TadaApp.app/TadaApp";
+			};
+			name = Release;
+		};
+		CC881E0627A45628000E0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A94E30E125499B62E5E842D /* Pods-TadaApp-TadaAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TadaApp;
+			};
+			name = Debug;
+		};
+		CC881E0727A45628000E0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6E251FE66C57AC0F61ED33 /* Pods-TadaApp-TadaAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKS793DH5;
+				INFOPLIST_FILE = TadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.abc.tada.TadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TadaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC881DCD27A45625000E0043 /* Build configuration list for PBXProject "TadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC881DFD27A45628000E0043 /* Debug */,
+				CC881DFE27A45628000E0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC881DFF27A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC881E0027A45628000E0043 /* Debug */,
+				CC881E0127A45628000E0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC881E0227A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC881E0327A45628000E0043 /* Debug */,
+				CC881E0427A45628000E0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC881E0527A45628000E0043 /* Build configuration list for PBXNativeTarget "TadaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC881E0627A45628000E0043 /* Debug */,
+				CC881E0727A45628000E0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC881DDE27A45625000E0043 /* TadaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC881DDF27A45625000E0043 /* TadaApp.xcdatamodel */,
+			);
+			currentVersion = CC881DDF27A45625000E0043 /* TadaApp.xcdatamodel */;
+			path = TadaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC881DCA27A45625000E0043 /* Project object */;
+}
