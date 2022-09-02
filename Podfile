@@ -9,6 +9,8 @@ target 'TadaApp' do
   pod 'Alamofire', '~> 5.1'
   pod 'AlamofireImage', '~> 4.1'
   pod 'SnapKit', '~> 5.0.0'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
 
   target 'TadaAppTests' do
     inherit! :search_paths
