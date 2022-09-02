@@ -10,6 +10,8 @@
 		A13E015A6D7F3C8110CFE0F7 /* Pods_TadaApp_TadaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC7226AA89C39DBFD3AE034 /* Pods_TadaApp_TadaAppUITests.framework */; };
 		A1CC37E8039B8B28BA34C3CC /* Pods_TadaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324D7184914C4BE7780A980D /* Pods_TadaAppTests.framework */; };
 		BE70F54BD93EBCFF46CCEDF3 /* Pods_TadaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF188E9A8F4305C9F4B04E /* Pods_TadaApp.framework */; };
+		CC3024E028C23C950040CF1B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3024DF28C23C950040CF1B /* LoginModel.swift */; };
+		CC3024E228C23EB20040CF1B /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3024E128C23EB20040CF1B /* TestModel.swift */; };
 		CC881DD627A45625000E0043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD527A45625000E0043 /* AppDelegate.swift */; };
 		CC881DD827A45625000E0043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD727A45625000E0043 /* SceneDelegate.swift */; };
 		CC881DDA27A45625000E0043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881DD927A45625000E0043 /* ViewController.swift */; };
@@ -35,7 +37,6 @@
 		CC881E2D27A46508000E0043 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2C27A46508000E0043 /* DetailViewController.swift */; };
 		CC881E2F27A46519000E0043 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E2E27A46519000E0043 /* ProfileViewController.swift */; };
 		CC881E3127A465CE000E0043 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3027A465CE000E0043 /* LoginCoordinator.swift */; };
-		CC881E3327A47415000E0043 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3227A47415000E0043 /* LoginModel.swift */; };
 		CC881E3527A4746A000E0043 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3427A4746A000E0043 /* Constants.swift */; };
 		CC881E3727A4761D000E0043 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3627A4761D000E0043 /* RegisterModel.swift */; };
 		CC881E3927A47765000E0043 /* SetUpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC881E3827A47765000E0043 /* SetUpExtension.swift */; };
@@ -83,6 +84,8 @@
 		4C6E251FE66C57AC0F61ED33 /* Pods-TadaApp-TadaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaApp-TadaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TadaApp-TadaAppUITests/Pods-TadaApp-TadaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85BBB49A05B77F03F854A7BE /* Pods-TadaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TadaAppTests/Pods-TadaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C84680915BAE8C3C79E64699 /* Pods-TadaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaAppTests.release.xcconfig"; path = "Target Support Files/Pods-TadaAppTests/Pods-TadaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC3024DF28C23C950040CF1B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		CC3024E128C23EB20040CF1B /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CC881DD227A45625000E0043 /* TadaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TadaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC881DD527A45625000E0043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC881DD727A45625000E0043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,7 +117,6 @@
 		CC881E2C27A46508000E0043 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CC881E2E27A46519000E0043 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CC881E3027A465CE000E0043 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		CC881E3227A47415000E0043 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		CC881E3427A4746A000E0043 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CC881E3627A4761D000E0043 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		CC881E3827A47765000E0043 /* SetUpExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpExtension.swift; sourceTree = "<group>"; };
@@ -315,9 +317,10 @@
 		CC881E0E27A45839000E0043 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				CC881E3227A47415000E0043 /* LoginModel.swift */,
 				CC881E3627A4761D000E0043 /* RegisterModel.swift */,
 				CC881E4827A4D212000E0043 /* MovieModel.swift */,
+				CC3024DF28C23C950040CF1B /* LoginModel.swift */,
+				CC3024E128C23EB20040CF1B /* TestModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -634,6 +637,7 @@
 				CC881E2D27A46508000E0043 /* DetailViewController.swift in Sources */,
 				CC881DDA27A45625000E0043 /* ViewController.swift in Sources */,
 				CC881DD627A45625000E0043 /* AppDelegate.swift in Sources */,
+				CC3024E028C23C950040CF1B /* LoginModel.swift in Sources */,
 				CC881E3B27A47839000E0043 /* Helper.swift in Sources */,
 				CC881E3527A4746A000E0043 /* Constants.swift in Sources */,
 				CC881E1227A458AF000E0043 /* Coordinator.swift in Sources */,
@@ -642,12 +646,12 @@
 				CC881DD827A45625000E0043 /* SceneDelegate.swift in Sources */,
 				CC881E2B27A464F9000E0043 /* HomeViewController.swift in Sources */,
 				CC881E4127A494B1000E0043 /* CheckBox.swift in Sources */,
-				CC881E3327A47415000E0043 /* LoginModel.swift in Sources */,
 				CC881E4727A4CDB3000E0043 /* HomeCoordinator.swift in Sources */,
 				CC881E5427A4F14C000E0043 /* DetailCoordinator.swift in Sources */,
 				CC881DE027A45625000E0043 /* TadaApp.xcdatamodeld in Sources */,
 				CC881E3727A4761D000E0043 /* RegisterModel.swift in Sources */,
 				CC881E3F27A48953000E0043 /* RegisterCoordinator.swift in Sources */,
+				CC3024E228C23EB20040CF1B /* TestModel.swift in Sources */,
 				CC881E2F27A46519000E0043 /* ProfileViewController.swift in Sources */,
 				CC881E1A27A45B35000E0043 /* RootViewController.swift in Sources */,
 				CC881E5A27A51900000E0043 /* SideMenuViewController.swift in Sources */,
